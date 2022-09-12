@@ -1,0 +1,140 @@
+body{
+	font-size: 16px;
+	color:#000000 ;
+	background-color: #fff;
+	font-family: monaco, Monospace;
+}
+#header-nav{
+	background-color: #0082e6;
+	border-radius: 0;
+	border:0;
+	height: 90px;
+
+}
+.navbar-brand{
+	padding-top: 5px;
+	text-align: auto;
+
+	
+}
+.navbar-brand h1{
+	padding: auto;
+	color: #fff;
+    font-weight: bold;
+
+}
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid white;
+	color: white;
+
+}
+.navbar-header button.navbar-toggle{
+	margin-top: 25px;
+	font-weight: bold;
+
+}
+.navbar-header .icon-bar{
+	background-color: white;
+	width: 30px;
+	height: 5px;
+}
+
+#collapsable-nav{
+	margin-bottom: 50px;
+}
+#nav-list{
+	margin-top: 0;
+
+}
+#nav-list a{
+	color: #000000;
+	background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 100%;
+
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+
+#main-content h2{
+	text-align: center;
+	font-weight: bold;
+}
+#main-content h3{
+	text-align: center;
+	font-weight: bold;
+
+}
+#main-content #section1{
+	background-color: #909090;
+	border: 0;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#main-content #section2{
+	background-color: #909090;
+	border: 0;
+	padding: 5px;
+	margin-bottom: 20px;
+
+}
+#main-content #section3{
+	background-color: #909090;
+	border: 0;
+	padding: 5px;
+
+}
+#collapsable-nav{
+	position: relative;
+}
+
+#main-content #collapsable-nav, .active{
+   position: absolute;
+   top: 200px;
+}
+/*large devices*/
+@media (min-width: 1200px){
+	#nav-list{
+		display: none;
+	}
+
+}
+
+/*medium devices*/
+@media(min-width: 992px) and (max-width: 1199px){
+#nav-list{
+	display: none;
+}
+
+	
+
+}
+
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#nav-list{
+		display:none;
+	}
+	
+	
+}
+
+/*extra small devices*/
+@media (max-width: 767px) {
+	
+}
+
+/*super extra small devices such as iPhone 4*/
+@media(max-width: 479px){
+
+}
+
