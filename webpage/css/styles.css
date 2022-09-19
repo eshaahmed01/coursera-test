@@ -1,0 +1,237 @@
+
+@font-face{
+	font-family: Athelas;
+	src: url(Athelas-Regular.woff);
+}
+@font-face {
+    font-family: Flenja-Regular;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Flenja Regular'), url('Flenja-Regular.woff') format('woff');
+    }
+@font-face{
+	font-family: MyriadPro;
+	src: url(MYRIADPRO-REGULAR.woff);
+}
+#headernav{
+	border-radius: 0;
+	border: 0;
+	height: 40px;
+	margin-bottom: 0;
+}
+#nav-list a{
+	color: #808080;
+    font-weight: bold;
+    
+}
+#navlist a:hover{
+	background-color: black;
+
+}
+#main-content h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Athelas;
+	margin-top: 150px;
+	text-align: center;
+}
+#small-text{
+	margin-top: 20px;
+	text-align: center;
+	color: #cc0000;
+	font-size: 10px;
+	font-weight: bold;
+}
+#small-text span{
+margin-right: 30px;
+
+}
+#section{
+	border-bottom: 1px solid #808080;
+	padding-bottom: 50px;
+	font-family: Athelas;
+	font-size: 18px;
+	margin-top: 50px;
+}
+#section div{
+	text-align: center;
+}
+#stats{
+	margin-left: 250px;
+	font-family: Flenja-Regular;
+	margin-top: 50px;
+	font-size: 70px;
+
+}
+#a{
+	border-right: 1px solid #808080;
+	padding-right: 70px;
+	color: #cc9966;
+	margin-right: 100px;
+}
+#b{
+	border-right: 1px solid #808080;
+	padding-right: 70px;
+    color: #33cc99;
+	margin-right: 100px;
+
+}
+#c{
+	color: #33cc99;
+}
+
+#card-text{
+	border-bottom: 1px solid #808080;
+	padding-bottom: 40px;
+	font-family: Athelas;
+	color: #999999;
+	font-size: 15px;
+	font-weight: bold;
+}
+#d{
+	margin-left: 240px;
+}
+#e{
+	margin-left: 230px;
+}
+#f{
+	margin-left: 220px;
+}
+#logo-img{
+	margin-top: 30px;
+	position: relative;
+
+}
+footer #models{
+	font-family: Athelas;
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+footer #paris{
+	font-size : 10px;
+	color: #999999;
+	font-weight: bold;
+	position: absolute;
+	left: 122px;
+	margin-top: -8px;  
+    
+}
+#main-content{
+	margin-bottom: 40px;
+}
+#parent{
+	position: relative;
+}
+#menu1{
+	position: absolute;
+	top: 800px;
+	left: 110px;
+}
+#menu2{
+	position: absolute;
+	top: 800px;
+	left: 610px;
+}
+#menu3{
+	position: absolute;
+	left: 610px;
+	top: 1000px;
+}
+#menu4{
+	position: absolute;
+	left: 860px;
+	top: 800px;
+}
+#menu5{
+	position: absolute;
+	left: 860px;
+	top: 1000px;
+}
+#menu1-content{
+	font-family: Athelas;
+	font-size: 20px;
+	color: white;
+	position : absolute;
+	top: 840px;
+	left: 140px;
+}
+#date{
+	font-size: 10px;
+	margin-top: -5px;
+
+}
+#button{
+	border : 1px solid white;
+	padding:7px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+}
+#menu2-content{
+	font-family: Athelas;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 840px;
+	left: 650px;
+}
+#button1{
+	border : 1px solid black;
+	padding:7px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+
+}
+#menu3-content{
+	font-family: Athelas;
+	font-size: 20px;
+	color: white;
+	position : absolute;
+	top: 1040px;
+	left: 650px;
+}
+#button2{
+	border: 1px solid white;
+	padding:7px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+}
+#menu4-content{
+	font-family: Athelas;
+	font-size: 20px;
+	color: white;
+	position : absolute;
+	top: 840px;
+	left: 900px;
+}
+#button3{
+	border: 1px solid white;
+	padding:7px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+
+}
+#menu5-content{
+	font-family: Athelas;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 1040px;
+	left: 900px;
+
+}
+#button4{
+	border : 1px solid black;
+	padding:7px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+}
+#twitter-logo #fb-logo{
+	margin-bottom: 10px;
+}
+

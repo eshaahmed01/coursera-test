@@ -1,0 +1,26 @@
+
+#headernav{
+	border-radius: 0;
+	border: 0;
+	height: 40px;
+	margin-bottom: 0;
+}
+#nav-list a{
+	color: #808080;
+    font-weight: bold;
+    
+}
+#navlist a:hover{
+	background-color: black;
+
+}
+#logo-img{
+	width: 30px;
+	height: 30px;
+}
+#main-content h1{
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+
+}
